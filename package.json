@@ -2,6 +2,7 @@
   "name": "event_driven_node_kafka",
   "version": "1.0.0",
   "description": "Building event driven microservices in Node.js/Ts and kafka",
+  "type": "module",
   "main": "app.js",
   "repository": {
     "type": "git",
@@ -22,6 +23,7 @@
   },
   "homepage": "https://github.com/jeffascript/bookworm-microservices-kafka-node#readme",
   "dependencies": {
-    "express": "^4.19.2"
+    "express": "^4.19.2",
+    "express-handlebars": "^7.1.3"
   }
 }
