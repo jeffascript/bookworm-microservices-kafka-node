@@ -11,7 +11,7 @@ app.set("view engine", "handlebars");
 app.set("views", "./templates");
 
 // Define a route to render the template
-app.get("/", (req, res) => {
+app.get("/", (_req, res) => {
   // Render the 'index.handlebars' template, passing data to it
   res.render("index", { layout: false, title: "The Bookworm’s Den Store" });
 });
